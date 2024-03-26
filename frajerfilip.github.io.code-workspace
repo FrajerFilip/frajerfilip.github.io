@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frajerfilip.github.io",
+		"liveServer.settings.port": 5501
+	}
+}
