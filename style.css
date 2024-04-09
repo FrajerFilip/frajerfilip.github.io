@@ -30,6 +30,17 @@ body{
         color: white;
         text-decoration: none;
     }
+    nav a:active{
+        color: #ff8000;
+    }
+    nav a:hover{
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
     .nav_mclaren_logo{
         width: 25%;
         
@@ -47,6 +58,13 @@ body{
 
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .nav_home_about_contact_cars_txt div{
+        text-align: center;
+
+        width: 25%;
+        height: 100%;
     }
 
     .nav_shopping_cart{
