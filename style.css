@@ -85,6 +85,10 @@ body{
             width: 70px;
             height: 62px;
        }
+       .shopping_cart_nav:hover{
+            scale: 1.2;
+            transition: 0.5s;
+       }
 
 /*Header*/
 header{
@@ -124,7 +128,7 @@ header{
 /*Main*/    
 main{
     width: 100%;
-    height: 1000px;
+    height: autoo;
     color: black;
 
     background-color: white;
@@ -144,36 +148,86 @@ main{
         }
         .main_div{
             width: 100%;
-            height: 700px;
+            height: 650px;
             display: flex;
             justify-content: space-evenly;
-    
-            border: 1px solid black;
         }
             .div_new_artura{
                 text-align: center;
-    
-                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
             }
                 .div_new_artura img{
                     width: 400px;
                 }
+                .div_new_artura h1{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 50px;
+                }
+                .div_new_artura p{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 100;
+                    font-style: normal;
+                    font-size: 35px;
+                }
+                .div_new_artura_and_txt{
+                    margin: 20px;
+                    width: 80%;
+                }
 
             .div_formula_1{
                 text-align: center;
-    
-                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
             }
                 .div_formula_1 img{
                     width: 400px;
                 }
+                .div_formula_1 h1{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 50px;
+                }
+                .div_formula_1 p{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 100;
+                    font-style: normal;
+                    font-size: 35px;
+                }
+                .div_formula_1_and_txt{
+                    margin: 20px;
+                    width: 80%;
+                }
+
             .div_motorsport{
                 text-align: center;
-    
-                border: 1px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
             }
                 .div_motorsport img{
                     width: 400px;
+                }
+                .div_motorsport h1{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 50px;
+                }
+                .div_motorsport p{
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 100;
+                    font-style: normal;
+                    font-size: 35px;
+                }
+                .div_motorsport_and_txt{
+                    margin: 20px;
+                    width: 80%;
                 }
     
         
