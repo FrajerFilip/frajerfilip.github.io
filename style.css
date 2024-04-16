@@ -121,12 +121,48 @@ header{
         margin: 20px;
     }
     
+/*Main*/    
 main{
     width: 100%;
     height: 1000px;
+    color: black;
 
     background-color: white;
 }
+    .main_div_h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal; 
+        text-align: center;
+        font-size: 100px;
+        
+    }
+    
+    .main_div{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-evenly;
+
+        border: 1px solid black;
+    }
+        .div_new_artura{
+            text-align: center;
+
+            border: 1px solid black;
+        }
+        .div_formula_1{
+            text-align: center;
+
+            border: 1px solid black;
+        }
+        .div_motorsport{
+            text-align: center;
+
+            border: 1px solid black;
+        }
+        
+        
 
 footer{
     width: 100%;
