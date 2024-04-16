@@ -130,38 +130,52 @@ main{
     background-color: white;
 }
     .main_div_h1{
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal; 
-        text-align: center;
-        font-size: 100px;
-        
-    }
-    
-    .main_div{
-        width: 100%;
-        height: 700px;
+        height: 180px;
         display: flex;
-        justify-content: space-evenly;
-
-        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
     }
-        .div_new_artura{
+        .main_div_h1 h1{
+            font-size: 100px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
             text-align: center;
-
+        }
+        .main_div{
+            width: 100%;
+            height: 700px;
+            display: flex;
+            justify-content: space-evenly;
+    
             border: 1px solid black;
         }
-        .div_formula_1{
-            text-align: center;
+            .div_new_artura{
+                text-align: center;
+    
+                border: 1px solid black;
+            }
+                .div_new_artura img{
+                    width: 400px;
+                }
 
-            border: 1px solid black;
-        }
-        .div_motorsport{
-            text-align: center;
-
-            border: 1px solid black;
-        }
-        
+            .div_formula_1{
+                text-align: center;
+    
+                border: 1px solid black;
+            }
+                .div_formula_1 img{
+                    width: 400px;
+                }
+            .div_motorsport{
+                text-align: center;
+    
+                border: 1px solid black;
+            }
+                .div_motorsport img{
+                    width: 400px;
+                }
+    
         
 
 footer{
