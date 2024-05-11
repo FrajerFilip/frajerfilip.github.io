@@ -232,7 +232,6 @@ main{
                 }
 
     .main_div_wysbm{
-        height: 800px;
         background-color: #1A1C1E;
         color: white;
     }
@@ -241,8 +240,6 @@ main{
             display: flex;
             justify-content: center;
             align-items: center;
-
-            border: 1px solid white;
         }
             .main_div_h1_wysbm h1{
                 font-size: 90px;
@@ -250,6 +247,60 @@ main{
                 font-weight: 500;
                 font-style: normal;
                 text-align: center;
+            }
+
+    .wysbm_container{
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+
+        .wysbm_h1_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+            .wysbm_h1{
+                font-size: 60px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+        .wysbm_p_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+        }
+            .wysbm_p{
+                font-size: 40px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 100;
+                font-style: normal;
+            }
+
+        .wysbm_left_div{
+            height: 100%;
+            width: 50%;
+        }
+            .left_div_top{
+                height: 50%;
+        }
+            .left_div_bottom{
+                height: 50%;
+        }
+
+        .wysbm_right_div{
+            height: 100%;
+            width: 50%;
+        }
+            .right_div_top{
+                height: 50%;
+            }
+            .right_div_bottom{
+                height: 50%;
             }
     
         
