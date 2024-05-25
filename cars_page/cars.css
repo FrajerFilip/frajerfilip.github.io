@@ -98,8 +98,63 @@ header{
 
 /*Main*/    
 main{
-    
+    background-color: #1A1C1E;
 }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+        .car_box{
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px 80px 20px;
+        }
+            .mclaren_box{
+                display: flex;
+                justify-content: center;
+            }
+                .car_img{
+                    width: 90%;
+                }    
+        .name_box{
+            padding: 10px;
+            font-size: 40px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .price_box{
+            padding: 10px;
+            font-size: 40px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .link_box{
+            background-color: #5F5F5F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 30px;
+            width: 150px;
+            height: 45px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+            .link_box:hover{
+                background-color: #3f3f3f;
+                transition: 0.4s;
+            }
+            .link_box:active{
+                color: #ff8000;
+            }
          
 /*Footer*/
 footer{
