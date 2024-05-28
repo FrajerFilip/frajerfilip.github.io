@@ -46,7 +46,6 @@ body{
 
     .nav_home_about_contact_cars_txt{
         width: 50%;
-
         display: flex;
         justify-content: space-evenly;
     }
