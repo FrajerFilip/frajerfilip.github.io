@@ -99,68 +99,45 @@ header{
 main{
     background-color: #1A1C1E;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    .cep_box{
-        width: 50%;
-        height: 500px;
+    .customization_box{
+        width: 100%;
+        height: 200px;
+        font-size: 100px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-        .contact_box{
-            font-size: 120px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 100;
-            font-style: normal;
-            padding: 10px;
-        }
-        .email_box{
-            font-size: 50px;
-            padding: 10px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-        .phone_box{
-            font-size: 50px;
-            padding: 10px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-        }
-
-    .ycfuh_map_box{
-        width: 50%;
-        height: 500px;
+    .table_box{
+        width: 100%;
+        height: 1100px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-        .ycfuh_box{
-            width: 100%;
-            height: 40%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 70px;
+    table{
+        width: 1200px;
+        text-align: center;
+        font-size: 50px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        border-collapse: collapse;
+    }
+        .header_row{
+            font-size: 80px;
             font-family: "Roboto", sans-serif;
             font-weight: 100;
             font-style: normal;
+            background-color: #ff8000;
+            
         }
-        .map_box{
-            width: 100%;
-            height: 60%;
-            display: flex;
-            justify-content: center;
-            align-self: center;
-        }
-            .map{
-                width: 70%;
-                height: 80%;
-                margin-top: 25px;
-            }
-         
 /*Footer*/
 footer{
     width: 100%;
